@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b"/>
+      <stop offset="100%" style="stop-color:#4338ca"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#312e81;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#3730a3;stop-opacity:0.4"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.08">
+    <line x1="0" y1="105" x2="1200" y2="105" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="210" x2="1200" y2="210" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="315" x2="1200" y2="315" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="420" x2="1200" y2="420" stroke="white" stroke-width="1"/>
+    <line x1="0" y1="525" x2="1200" y2="525" stroke="white" stroke-width="1"/>
+    <line x1="200" y1="0" x2="200" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="400" y1="0" x2="400" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="600" y1="0" x2="600" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="800" y1="0" x2="800" y2="630" stroke="white" stroke-width="1"/>
+    <line x1="1000" y1="0" x2="1000" y2="630" stroke="white" stroke-width="1"/>
+  </g>
+
+  <!-- Glow circles -->
+  <circle cx="900" cy="150" r="200" fill="#6366f1" opacity="0.15"/>
+  <circle cx="300" cy="500" r="150" fill="#8b5cf6" opacity="0.12"/>
+
+  <!-- Badge -->
+  <rect x="100" y="100" width="240" height="36" rx="18" fill="#6366f1" opacity="0.9"/>
+  <text x="220" y="123" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="white" text-anchor="middle">✦ NOTION TEMPLATES</text>
+
+  <!-- Main title -->
+  <text x="100" y="220" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="white" letter-spacing="-2">Notion Templates</text>
+  <text x="100" y="310" font-family="system-ui, -apple-system, sans-serif" font-size="72" font-weight="800" fill="#a5b4fc" letter-spacing="-2">for Solopreneurs</text>
+
+  <!-- Subtitle -->
+  <text x="100" y="380" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#c7d2fe" font-weight="400">Run your freelance business entirely in Notion.</text>
+  <text x="100" y="420" font-family="system-ui, -apple-system, sans-serif" font-size="28" fill="#c7d2fe" font-weight="400">AI prompts included. Bilingual FR/EN.</text>
+
+  <!-- Feature pills -->
+  <rect x="100" y="470" width="180" height="40" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="190" y="495" font-family="system-ui, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="500">📋 Freelance OS</text>
+
+  <rect x="295" y="470" width="210" height="40" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="400" y="495" font-family="system-ui, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="500">🎬 Creator Dashboard</text>
+
+  <rect x="520" y="470" width="195" height="40" rx="20" fill="rgba(255,255,255,0.12)" stroke="rgba(255,255,255,0.25)" stroke-width="1"/>
+  <text x="617" y="495" font-family="system-ui, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="500">🤖 AI Workflows</text>
+
+  <!-- Price -->
+  <text x="100" y="580" font-family="system-ui, sans-serif" font-size="22" fill="#a5b4fc" font-weight="500">From 20€ — one-time payment · Free updates forever</text>
+
+  <!-- Right side decoration -->
+  <rect x="820" y="100" width="300" height="420" rx="16" fill="url(#card)" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+  <text x="970" y="160" font-family="system-ui, sans-serif" font-size="14" fill="#c7d2fe" text-anchor="middle" font-weight="600">FREELANCE BUSINESS OS</text>
+
+  <!-- Mock Notion UI in card -->
+  <rect x="845" y="185" width="250" height="8" rx="4" fill="white" opacity="0.7"/>
+  <rect x="845" y="205" width="180" height="6" rx="3" fill="white" opacity="0.3"/>
+
+  <rect x="845" y="235" width="60" height="24" rx="4" fill="#6366f1" opacity="0.8"/>
+  <text x="875" y="251" font-family="system-ui, sans-serif" font-size="11" fill="white" text-anchor="middle">Clients</text>
+  <rect x="915" y="235" width="60" height="24" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <text x="945" y="251" font-family="system-ui, sans-serif" font-size="11" fill="white" text-anchor="middle">Projects</text>
+  <rect x="985" y="235" width="60" height="24" rx="4" fill="rgba(255,255,255,0.15)"/>
+  <text x="1015" y="251" font-family="system-ui, sans-serif" font-size="11" fill="white" text-anchor="middle">Finance</text>
+
+  <!-- Table rows -->
+  <g opacity="0.6">
+    <rect x="845" y="275" width="250" height="28" rx="4" fill="rgba(255,255,255,0.08)"/>
+    <circle cx="862" cy="289" r="5" fill="#10b981"/>
+    <rect x="875" y="285" width="120" height="8" rx="4" fill="white" opacity="0.6"/>
+    <rect x="1010" y="285" width="60" height="8" rx="4" fill="#10b981" opacity="0.5"/>
+
+    <rect x="845" y="310" width="250" height="28" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <circle cx="862" cy="324" r="5" fill="#f59e0b"/>
+    <rect x="875" y="320" width="100" height="8" rx="4" fill="white" opacity="0.6"/>
+    <rect x="1010" y="320" width="60" height="8" rx="4" fill="#f59e0b" opacity="0.5"/>
+
+    <rect x="845" y="345" width="250" height="28" rx="4" fill="rgba(255,255,255,0.08)"/>
+    <circle cx="862" cy="359" r="5" fill="#6366f1"/>
+    <rect x="875" y="355" width="140" height="8" rx="4" fill="white" opacity="0.6"/>
+    <rect x="1010" y="355" width="60" height="8" rx="4" fill="#6366f1" opacity="0.5"/>
+
+    <rect x="845" y="380" width="250" height="28" rx="4" fill="rgba(255,255,255,0.05)"/>
+    <circle cx="862" cy="394" r="5" fill="#ec4899"/>
+    <rect x="875" y="390" width="90" height="8" rx="4" fill="white" opacity="0.6"/>
+    <rect x="1010" y="390" width="60" height="8" rx="4" fill="#ec4899" opacity="0.5"/>
+  </g>
+
+  <!-- KPI boxes in card -->
+  <g>
+    <rect x="845" y="425" width="74" height="60" rx="8" fill="rgba(16,185,129,0.2)" stroke="rgba(16,185,129,0.4)" stroke-width="1"/>
+    <text x="882" y="450" font-family="system-ui, sans-serif" font-size="18" fill="#10b981" text-anchor="middle" font-weight="700">12</text>
+    <text x="882" y="468" font-family="system-ui, sans-serif" font-size="10" fill="#c7d2fe" text-anchor="middle">Clients</text>
+
+    <rect x="929" y="425" width="74" height="60" rx="8" fill="rgba(99,102,241,0.2)" stroke="rgba(99,102,241,0.4)" stroke-width="1"/>
+    <text x="966" y="450" font-family="system-ui, sans-serif" font-size="18" fill="#818cf8" text-anchor="middle" font-weight="700">8</text>
+    <text x="966" y="468" font-family="system-ui, sans-serif" font-size="10" fill="#c7d2fe" text-anchor="middle">Projects</text>
+
+    <rect x="1013" y="425" width="82" height="60" rx="8" fill="rgba(245,158,11,0.2)" stroke="rgba(245,158,11,0.4)" stroke-width="1"/>
+    <text x="1054" y="450" font-family="system-ui, sans-serif" font-size="18" fill="#fbbf24" text-anchor="middle" font-weight="700">3.2k</text>
+    <text x="1054" y="468" font-family="system-ui, sans-serif" font-size="10" fill="#c7d2fe" text-anchor="middle">Revenue</text>
+  </g>
+</svg>
